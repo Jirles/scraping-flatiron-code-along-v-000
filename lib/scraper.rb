@@ -18,9 +18,9 @@ class Scraper
       binding.pry 
     end
     
-   # def get_courses(selector)
-      #self.get_page.css(selector)
-   # end
+    def get_courses(selector)
+      self.get_page.css(".post")
+    end
     
     def make_courses
       #.post, h2, text => title 
@@ -40,6 +40,4 @@ class Scraper
   end
   
 end
-
-Scraper.new.get_page
 
