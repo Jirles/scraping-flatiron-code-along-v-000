@@ -18,7 +18,7 @@ class Scraper
     def make_courses
       #.post, h2, text => title 
       #.post, .date, text => schedule 
-      #.post, 
+      #.post, p, text => description 
     end
     
     def print_courses
